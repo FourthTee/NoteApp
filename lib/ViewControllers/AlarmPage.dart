@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:android_alarm_manager/android_alarm_manager.dart';
 
 class AlarmPage extends StatefulWidget {
 
@@ -28,8 +27,6 @@ class _AlarmPageState extends State<AlarmPage> {
 
 
   alarm() async {
-    final int helloAlarmID = 0;
-    await AndroidAlarmManager.initialize();
 
   }
 
